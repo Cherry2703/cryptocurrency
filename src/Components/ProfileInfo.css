@@ -1,0 +1,46 @@
+.profile-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-name{
+    background-image: linear-gradient(to right,#3ce859,#9ceb09,#ebf071);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.profile-container-text{
+    display: flex;
+    flex-direction: column;
+}
+.name-icon-cont{
+    display: flex;
+}
+.handwave-icon{
+    font-size: 25px;
+    color: #f5dd05;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.spot-trading-text{
+    color: #018c19;
+}
+.start-trading-btn{
+    background: #2cba16;
+    color: #fff;
+    font-family: "Roboto",sans-serif;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .profile-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
